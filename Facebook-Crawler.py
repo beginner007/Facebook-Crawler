@@ -79,7 +79,7 @@ def getFacebookCampaignData(pageID=None, ID=None, paid=None):
         facebookCampaignData['top_location'] = topLocation
 
     # Creating structure to cache unpaid data
-    trivialPostData     = {}
+    trivialPostData     = {}   
     postInsights        = {}
 
     # Setting flags for appropriate checks
